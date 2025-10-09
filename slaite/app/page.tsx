@@ -16,7 +16,7 @@ import cv from "./tmcv.png";
 import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 import { Highlight } from "@/components/ui/hero-highlight";
 import { Spotlight } from "@/components/ui/spotlight-new";
-
+import { WobbleCard } from "@/components/ui/wobble-card";
 const user = {
   age: 16,
 
@@ -54,6 +54,49 @@ export default function Home() {
   <a className="flex justify-center items-center h-[200px] w-[200px] bg-[#131313]"></a>
   <a className="flex justify-center items-center h-[200px] w-[200px] bg-[#131313]"></a>
 </div>
+
+<div className="wobble grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-7xl mx-auto w-full mt-[100px]">
+  {/* First WobbleCard (Left, stacked on top) */}
+  <WobbleCard containerClassName="col-span-1 min-h-[300px] bg-black">
+    <div className="max-w-sm">
+      <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+        Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper
+        today!
+      </h2>
+      <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
+        With over 100,000 monthly active bot users, Gippity AI is the most popular
+        AI platform for developers.
+      </p>
+    </div>
+  </WobbleCard>
+
+  <WobbleCard containerClassName="col-span-1 min-h-[300px]  bg-black">
+    <div className="max-w-sm">
+      <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+        Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper
+        today!
+      </h2>
+      <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
+        With over 100,000 monthly active bot users, Gippity AI is the most popular
+        AI platform for developers.
+      </p>
+    </div>
+  </WobbleCard>
+
+  <WobbleCard containerClassName="col-span-1 lg:col-start-2 min-h-[300px]  bg-black ">
+    <div className="max-w-sm">
+      <h2 className="max-w-sm md:max-w-lg text-left text-balance text-base md:text-xl lg:text-3xl font-semibold tracking-[-0.015em] text-white">
+        Signup for blazing-fast cutting-edge state of the art Gippity AI wrapper
+        today!
+      </h2>
+      <p className="mt-4 max-w-[26rem] text-left text-base/6 text-neutral-200">
+        With over 100,000 monthly active bot users, Gippity AI is the most popular
+        AI platform for developers.
+      </p>
+    </div>
+  </WobbleCard>
+</div>
+
 <div className="footer w-full h-[100px] border-t-2 mt-[100px] flex items-center justify-between px-4 bg-[#030303]">
   <div className="flex items-center">
     <Image
