@@ -44,46 +44,6 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange
           >
-            <header className=" border flex bg-[#030303] h-[100px] w-full items-center relative z-20">
-              <div className="flex items-center">
-                <Image
-                  className="m-[10px]"
-                  src={logo}
-                  alt="Slaite Logo"
-                  width={60}
-                  height={60}
-                />
-                <h1 className="font-bold ml-[0px] text-[35px] text-white">Slaite</h1>
-              </div>
-              <div className="absolute left-1/2 transform -translate-x-1/2 flex justify-center space-x-6 text-[#929292] font-medium">
-                <a href="/about">About</a>
-                <a href="/help">Help</a>
-                <a href="/contact">Contact</a>
-              </div>
-              <div className="ml-auto flex items-center space-x-4 mr-4">
-                <SignedOut>
-                  <SignInButton>
-                    <button className="border bg-transparent text-[#929292] font-medium rounded-[10px] text-sm sm:text-base h-10 px-4 cursor-pointer hover:text-white">
-                      Sign In
-                    </button>
-                  </SignInButton>
-                  <SignUpButton>
-                    <button className="bg-[#ffffff] text-black rounded-[10px] font-medium text-sm sm:text-base h-10 px-4 cursor-pointer">
-                      Sign Up
-                    </button>
-                  </SignUpButton>
-                </SignedOut>
-                <SignedIn>
-                  <UserButton
-                    appearance={{
-                      elements: {
-                        userButtonAvatarBox: "w-10 h-10",
-                      },
-                    }}
-                  />
-                </SignedIn>
-              </div>
-            </header>
             {children}
           </ThemeProvider>
         </body>
