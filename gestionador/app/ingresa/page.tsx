@@ -19,34 +19,33 @@ const Page = () => {
   return (
     <div>
       {/* Header */}
-      <header className="flex border-b border-[#242424] w-full h-[70px] bg-[#0a0a0a] items-center text-white px-5">
-        <img src="/il.png" alt="My image" height={40} width={40} />
-        <Link href="/">
-          <h1 className="text-[#ffffffdd] font-bold text-[30px] ml-4 cursor-pointer">
-            Inventra
-          </h1>
-        </Link>
+      <header className="relative z-50 flex border-b border-[#242424] w-full h-[70px] bg-[#0a0a0a] items-center text-white px-5">
+  <div className="flex items-center">
+    <img src="/il.png" alt="My image" height={40} width={40} />
+    <Link href="/">
+      <h1 className="text-[#ffffffdd] font-bold text-[30px] ml-4 cursor-pointer">
+        Inventra
+      </h1>
+    </Link>
+  </div>
 
-        <div className="mx-auto text-[#8b8b8b] hover:bg-[#131313] transition h-[40px] w-[140px] flex items-center justify-center rounded-[10px] font-medium text-[15px]">
-          <Link href="/About">
-            <h2>¿Cómo funcióna?</h2>
-          </Link>
-        </div>
+  <div className="absolute left-1/2 -translate-x-1/2 cursor-pointer text-[#8b8b8b] hover:bg-[#131313] transition h-[40px] w-[140px] flex items-center justify-center rounded-[10px] font-medium text-[15px]">
+    <Link href="/About"><h2>¿Cómo funciona?</h2></Link>
+  </div>
 
-        <div className="flex gap-[20px] text-white">
-          <Link href="/ingresa">
-            <button className="text-[#8b8b8b] text-[15px] hover:bg-[#131313] transition h-[40px] flex items-center justify-center w-[100px] rounded-[10px] font-medium">
-              Ingresar
-            </button>
-          </Link>
-          <Link href="/formulario">
-            <button className="h-[40px] w-[120px] bg-[#ffffffdd] flex items-center justify-center rounded-[10px] text-black font-medium text-[15px]">
-              Agendar demo
-            </button>
-          </Link>
-        </div>
-      </header>
-
+  <div className="flex gap-[20px] text-white ml-auto">
+    <Link href="/ingresa">
+      <button className="border border-[#3d3d3d] text-[#8b8b8b] cursor-pointer text-[15px] hover:bg-[#131313] transition h-[40px] flex items-center justify-center w-[100px] rounded-[10px] font-medium">
+        Ingresar
+      </button>
+    </Link>
+    <Link href="/formulario">
+      <button className="cursor-pointer h-[40px] w-[120px] bg-[#ffffffdd] flex items-center justify-center rounded-[10px] text-black font-medium text-[15px]">
+        Agendar demo
+      </button>
+    </Link>
+  </div>
+</header>
       {/* Content */}
       <div className="flex flex-col items-center mt-[100px] text-center">
         <h1 className="text-white font-medium text-[40px]">Ingresa tu llave única</h1>
