@@ -5,6 +5,7 @@ import { ChromeIcon as ChartNoAxesColumn } from 'lucide-react';
 import Link from "next/link";
 import { Highlight } from "@/components/ui/hero-highlight";
 import { Spotlight } from "@/components/ui/spotlight-new";
+import { Analytics } from "@vercel/analytics/next"
 
 export default function Home() {
   return (
