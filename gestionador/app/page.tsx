@@ -184,10 +184,11 @@ export default function Home() {
             </Link>
           </div>
 
+        
+        </div>
           <div className="flex border-t border-[#242424] w-full h-[70px] bg-[#0a0a0a] items-center mt-[100px] sm:mt-[150px] px-4">
             <h1 className="text-[#8b8b8b] text-[12px] sm:text-[14px]">© 2025 Inventra. All rights reserved.</h1>
           </div>
-        </div>
       </div>
     </div>
   );
