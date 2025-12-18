@@ -1,7 +1,7 @@
 <img width="1280" height="720" alt="Ev graph" src="https://github.com/user-attachments/assets/b3b7b1e0-28ad-4fc1-a8dc-0f71938b34cf" />
 
 # Inventra — Gestión de Inventarios
----
+
 
 Somos una empresa de software basada en la ciudad de México. Le ofrecemos soluciones  de tecnología a empresas de logística para hacer sus procesos más eficientes, rápidos y efectivos en sentidos de costo. Algunas de las herramientas que ofrecemos son 
 
@@ -11,10 +11,15 @@ Somos una empresa de software basada en la ciudad de México. Le ofrecemos soluc
 * Calculos automatizados
 
 
+# Uso
 
----
+Inventra es software privado con obligaciones legales y clientes corporativos. Para más información, consulte la sección de ayuda.
 
-##  Licencia
+# Ayuda
+
+Para cualquier duda, contacte: [inventramx@gmail.com](mailto:inventramx@gmail.com)
+
+# Licencia
 
 Copyright © [2025] Inventra
 
