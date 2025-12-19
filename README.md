@@ -1,4 +1,4 @@
-<img width="1280" height="720" alt="Ev graph" src="https://github.com/user-attachments/assets/b3b7b1e0-28ad-4fc1-a8dc-0f71938b34cf" />
+<img width="827" height="172" alt="image" src="https://github.com/user-attachments/assets/fb66564f-26c6-4fe1-a652-7af8df1b63d7" />
 
 # Inventra — Gestión de Inventarios
 
